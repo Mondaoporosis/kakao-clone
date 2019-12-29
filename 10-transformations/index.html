@@ -4,24 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>Transformations</title>
     <style>
       .box {
-        background-color: red;
-        font-size: 40px;
+        width: 500px;
+        height: 500px;
+        background: red;
+        transition: transform 5s ease-in-out;
       }
       .box:hover {
-        background-color: pink;
-      }
-      .box:active {
-        background-color: green;
-      }
-      .box:focus {
-        background-color: blue;
+        transform: rotate(5turn);
       }
     </style>
   </head>
   <body>
-    <textarea class="box">lalalala</textarea>
+    <div class="box"></div>
   </body>
 </html>
